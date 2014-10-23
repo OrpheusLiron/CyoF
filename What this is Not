@@ -1,0 +1,17 @@
+This document is to state simply, what this application could be, but isn't. It won't cover everything, just things that
+one might expect.
+
+What this is NOT:
+
+  * A character generator.
+  * A mapping tool.
+  
+What this will never do:
+
+  * Social network intergration.
+  * Generalised file transfers: while it will allow streaming of sound and/or video, and will transfer character sheets 
+    and images back and forth, it won't be very useful as a file transfer utility, and does not have to.
+  * Utilise a web interface for basic functionality.
+  
+  
+While the list above is not expansive, it should give someone a clearer picture of what I'm NOT trying to do here. 
