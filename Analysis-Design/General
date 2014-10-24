@@ -1,14 +1,14 @@
           Choose your Own Fate
           
-Choose your own fate will be a communication client facilitating a PnP RPG game session, initialy set up to support the fate system. It will require a server to run - which could be one of the players themselves, but the design will focus on the server being remote. The server is mostly used for synchronisation and bandwith.
+Choose your own fate will be a communication client facilitating a PnP RPG game session, initially set up to support the fate system. It will require a server to run - which could be one of the players themselves, but the design will focus on the server being remote. The server is mostly used for synchronization and bandwidth.
 
 In a face to face session, the Storyteller/Narrator/Dreamweaver/DungeonMaster/Gamemaster controls various aspects of the scene both in game and out. Seating arrangements, music and ambient sounds, lighting, et cetera, all serve as theatrics that can facilitate a better, or at least more immersive experience. The reasons for developing this application thus, were to give back to the DM this type of control remotely. Thus there are certain issues that must be tackled to simulate the one on one experience best.
 
   1.Control over Music, Ambient sounds, Possibly Video:
-    Reqs: Bandwith.
+    Reqs: Bandwidth.
     Reqs: Synchronisation.
   2.Controling Communications - Secret messages between Storyteller and player, one on one subscenes:
-    Reqs: Bandwith.
+    Reqs: Bandwidth.
     Reqs: Easily defining communication channels.
   3.Managing Characters:
     Reqs: Shared character sheets.
@@ -23,4 +23,4 @@ In a face to face session, the Storyteller/Narrator/Dreamweaver/DungeonMaster/Ga
     Reqs: Layout Control - Prefferably Drag & Drop.
     Reqs: Fullscreen Clients.
 
-Offcourse, not all of the above can be fleshed out initialy, but one can hope. The structure of the application itself should be modular - for example loading the ruleset depending on the game, or not loading the video module if no video is required etc. In essence, the core application, from a user perspective, is a layout manager. From server perspective it's a network bridge combined with miscelaneous modular functionality - from persistent storage to streaming.
+Of course, not all of the above can be fleshed out initially, but one can hope. The structure of the application itself should be modular - for example loading the ruleset depending on the game, or not loading the video module if no video is required etc. In essence, the core application, from a user perspective, is a layout manager. From server perspective it's a network bridge combined with miscelaneous modular functionality - from persistent storage to streaming.
